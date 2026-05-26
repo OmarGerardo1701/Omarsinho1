@@ -2,7 +2,7 @@ import mongoose from "mongoose"; //Libreria para conectarse con mongo DB//
 import dotenv from "dotenv"; //Libreria para poder llamar mi archivo . env//
 import express from "express"; //Libreria para crear servidores//
 import cors from "cors"; //Libreria para seguridad en el server //
-import { test } from "./backend/controllers/nissan.controllers.js";
+import { test } from "./backend/controllers/gandhi.controllers.js";
 
 dotenv.config();
 mongoose.connect(process.env.url_bd)
