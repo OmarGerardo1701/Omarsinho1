@@ -1,23 +1,23 @@
-import { Metropolitana } from "../models/metropolitana.models.js";
+import { Metropolitana } from "../models/Metropolitana.models";
 
-Metropolitana.create({
+metropolitana.create({
     Alumno: "Omarsinho",
     Calificacion: "10",
-    Materia: "Ingles"
+    Materia; "Ingles"
 },
               {
     Alumno: "Bredny",
-    Calificacion: "8",
+    Calificacion: "8"
     Materia: "Proyecto Integrador"
 },
               {
     Alumno: "Jhosue",
-    Calificacion: "7",
+    Calificacion: "7"
     Materia: "Matematicas"
 },
             {
     Alumno: "Fer",
-    Calificacion: "9",
+    Calificacion: "9"
     Materia: "Aplicaciones web"
 })
 
